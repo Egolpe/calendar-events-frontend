@@ -1,0 +1,70 @@
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.centered-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url('../images/pngocean.com.png');
+}
+
+.opacity-container {
+  transition: opacity 0.3s ease-in;
+  opacity: 1;
+}
+
+.opacity-container.activated {
+  opacity: 0.5;
+}
+
+.p-t-md {
+  padding-top: var(--space-md);
+}
+
+.m-t-lg {
+  margin-top: var(--space-lg);
+  color: var(--medium);
+  border-color: var(--medium);
+}
+
+.flex {
+  display: flex;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.truncate-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.truncate-multiline-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.linkCreateAccount {
+  margin-top: 1rem;
+  color: var(--medium);
+  border: none;
+  font-size: 16px;
+}
+.linkHome {
+  margin-top: 1rem;
+  color: var(--medium);
+  width: fit-content;
+  font-size: 16px;
+  border: none;
+  border-collapse: unset;
+  margin-left: 20px;
+}

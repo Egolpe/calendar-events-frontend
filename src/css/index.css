@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+@import "./theme.css";
+@import "./buttons.css";
+@import "./forms.css";
+@import "./utils.css";
+@import "./header.css";
+@import "./event.css";
+@import "./dashboard.css";
+@import "./event-list.css";
+@import "./dialog.css";
+@import "./calendar.css";
+@import "./cards.css";
+@import "./uploadForm.css";
+@import "./profile.css";
+@import "./updateAccount.css";
+@import "./headboard.css";
+@import "./all-event-list.css";
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+body,
+#root {
+  background: var(--bright);
+  background-image: url("../images/pngocean.com.png");
+  font-family: var(--font-primary);
+  height: 100%;
+  color: var(--bright);
+  line-height: 1.3em;
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden; */
+}
+
+.gutter-horizontal {
+  cursor: ew-resize;
+}
+
+h1 {
+  font-family: var(--font-primary);
+  color: var(--medium);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  color: var(--medium);
+}
+
+h1 {
+  font-size: var(--font-xxl);
+}
+
+h2 {
+  font-size: var(--font-xl);
+}
+
+h3 {
+  font-size: var(--font-l);
+}
+
+h4 {
+  font-size: var(--font-m);
+}
+
+h5 {
+  font-size: var(--font-sm);
+}
+
+h6 {
+  font-size: var(--font-xs);
+}
+
+p {
+  font-size: var(--font-sm);
+}
+
+a {
+  font-family: var(--font-primary);
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+  border-bottom: 2px solid var(--secondary);
+}
+
+a:active {
+  opacity: 1;
+  border-bottom: 2px solid var(--secondary);
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

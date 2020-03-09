@@ -1,0 +1,68 @@
+.profile {
+  display: block;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  padding: 2rem;
+  background: rgb(192, 194, 205);
+  background: radial-gradient(
+    circle,
+    rgba(192, 194, 205, 0.6516981792717087) 100%,
+    rgba(203, 203, 203, 1) 100%
+  );
+  background-image: url('../images/pngocean.com.png');
+}
+
+.avatarContainer {
+  padding: 30px;
+  align-items: center;
+  display: block;
+  margin: auto;
+}
+.avatarProfile {
+  border-radius: 7rem;
+  max-height: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  min-width: 200px;
+}
+.contactProfile {
+  align-items: center;
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+.emailProfile {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  color: var(--medium);
+}
+.updateProfile {
+  align-items: center;
+  margin-top: 1rem;
+  display: block;
+  margin: auto;
+}
+
+.homeLink {
+  padding: 0.5rem;
+}
+.homeButton {
+  margin-top: 20px;
+}
+
+.updateAvatarButton {
+  padding: 0.25rem;
+}
+.logoutButton {
+  padding: 0.25rem;
+  background-color: transparent;
+  color: var(--bright);
+  font-family: var(--font-primary);
+  border: none;
+}
+.contactProfile {
+  padding: 1rem;
+}
